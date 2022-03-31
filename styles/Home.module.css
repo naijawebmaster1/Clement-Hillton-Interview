@@ -1,0 +1,29 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.container {
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    background-color: rgba(0, 0, 0, 0.466);
+    background-blend-mode: overlay;
+    color:white;
+    background-image: url('/bgimage.png');
+    background-repeat: no-repeat;
+    background-size:cover, 90%;
+}
+.navtext{
+    font-size: .9rem;
+}
+.pFlexT{
+    color: rgb(255, 211, 77);
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 20px;
+}
+.txtSpan{
+   font-size: .65rem; 
+   text-transform: uppercase;
+   padding-top: 0;
+   margin-top: 0;
+}
