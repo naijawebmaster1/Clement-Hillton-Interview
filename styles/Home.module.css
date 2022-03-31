@@ -4,13 +4,14 @@
 } */
 .container {
     min-height: 100vh;
+    min-width: 100%;
     padding: 0 0.5rem;
     background-color: rgba(0, 0, 0, 0.466);
     background-blend-mode: overlay;
     color:white;
-    background-image: url('/bgimage.png');
+    background-image: url('/bgimage-1.jpg');
     background-repeat: no-repeat;
-    background-size:cover, 90%;
+    background-size:cover, 100%;
 }
 .navtext{
     font-size: .9rem;
