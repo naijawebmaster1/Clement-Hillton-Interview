@@ -65,9 +65,9 @@ export const Days = ({number}) => {
 export const Duration = ({number, string}) => {
     return (
         <>
-                       <div key="duration" className="mr-5 cursor-pointer flex-col text-left w-10">
-                            <h2 className={"styles.pFlexT"}>{number}</h2>
-                            <p className="styles.txtSpan">{string}</p>
+                       <div key="duration" className="md:mr-5 cursor-pointer flex-col text-left w-10">
+                            <h2 className={styles.pFlexT}>{number}</h2>
+                            <p className={styles.txtSpan}>{string}</p>
                         </div>
         </>
     )
